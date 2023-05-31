@@ -54,9 +54,39 @@
   </header>
 
   <!--contenido-->
-  <main>
-   
+  <main class="container">
+    <section class="row justify-content-center">
+      <h2>Contáctenos</h2>
+      <form class="col-sm-4" action="">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+          <label for="nombre">Nombre</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email" placeholder="Email">
+          <label for="email">Email</label>
+        </div>
+        <div class="mb-3">
+          <label for="asunto">Asunto</label>
+          <select id="asunto" class="form-select">
+            <option value="1">Consulta</option>
+            <option value="2">Reclamo</option>
+            <option value="3">Cambio de tiquetes</option>
+            <option value="4">Garantía</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje">Mensaje</label>
+          <textarea placeholder="Mensaje" class="form-control" name="" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+      </form>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389.345424933637!2d-84.05578632200901!3d9.962030215183686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e45e489af24d%3A0xfd5c04ae2ec633cc!2sCin%C3%A9polis!5e0!3m2!1ses-419!2scr!4v1685501683388!5m2!1ses-419!2scr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
   </main>
+
 
   <!--pie-->
   <footer></footer>
